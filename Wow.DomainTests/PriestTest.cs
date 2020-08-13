@@ -56,8 +56,6 @@ namespace Wow.DomainTests
             aziel.Invoking(x => x.Resurrection(10000)).Should().Throw<Exception>()
                 .WithMessage("You dont have enough mana for resurrection!");
         }
-
-
-
+        
     }
 }
